@@ -1,0 +1,22 @@
+:root {
+    --bg-slate: #0b0f19;
+    --bg-card: #151d30;
+    --cyan: #06b6d4;
+    --border-color: rgba(255, 255, 255, 0.08);
+}
+body { background-color: var(--bg-slate); color: #f3f4f6; font-family: 'Outfit', sans-serif; min-height: 100vh; }
+.icon-circle {
+    background: linear-gradient(135deg, var(--cyan), #3b82f6);
+    width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; border-radius: 14px;
+}
+.glass-card { background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; }
+.bg-dark-input { background-color: #0b0f19 !important; border: 1px solid var(--border-color) !important; color: #f3f4f6 !important; }
+.btn-cyan { background-color: var(--cyan); border: none; color: #0b0f19; border-radius: 10px; }
+.btn-cyan:hover { background-color: #0891b2; color: #0b0f19; }
+.badge-card { background-color: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-color); border-radius: 10px; }
+.progress-circle-container { position: relative; width: 80px; height: 80px; }
+.progress-circle { width: 100%; height: 100%; }
+.circle-bg { fill: none; stroke: rgba(255, 255, 255, 0.05); stroke-width: 2.8; }
+.circle { fill: none; stroke: var(--cyan); stroke-width: 2.8; stroke-linecap: round; }
+.percentage-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.text-cyan { color: var(--cyan) !important; }
